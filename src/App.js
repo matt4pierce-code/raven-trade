@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 const STORAGE_KEY="raven-trade-permanent-v1";
 const PAIRS=["BTC/USDT","ETH/USDT","SOL/USDT","BNB/USDT","XRP/USDT","DOGE/USDT","ADA/USDT","AVAX/USDT","LINK/USDT","LTC/USDT"];
-const STARTING_CAP=1000;
+const STARTING_CAP=2500;
 const RISK_PER_TRADE=0.015;
 const HARD_STOP=0.025;
 const DAILY_TARGET=0.08;
